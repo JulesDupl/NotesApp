@@ -1,4 +1,4 @@
-const API = 'http://localhost:3000';
+const API = 'https://notesapp-hrgy.onrender.com';
 
 const list    = document.getElementById('notes-list');
 const input   = document.getElementById('note-input');
