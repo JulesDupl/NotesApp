@@ -16,7 +16,7 @@ pool.query(`
   );
 `).catch(err => {
   console.error('Failed to initialise database table:', err.message);
-  process.exit(1);
+  // Remove the process.exit(1) line — let the server keep running
 });
 
 module.exports = pool;
