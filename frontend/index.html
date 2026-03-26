@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Notes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>My <span>Notes</span></h1>
+      <p class="subtitle">Plain, fast, persistent</p>
+    </header>
+ 
+    <hr class="divider"/>
+ 
+    <div class="composer">
+      <textarea id="note-input" placeholder="Write a note…"></textarea>
+      <div class="composer-footer">
+        <button class="add-btn" id="add-btn">+ Add Note</button>
+      </div>
+    </div>
+ 
+    <p class="notes-header" id="notes-count">— notes —</p>
+    <div id="notes-list"></div>
+  </div>
+ 
+  <div class="toast" id="toast"></div>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
